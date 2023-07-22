@@ -24,7 +24,6 @@ add_definitions(-DQT_NO_KEYWORDS)
 
 set(SRC_FILES
   src/twist_with_covariance_display.cpp
-  src/twist_with_covariance_visual.cpp
 )
 
 add_library(${PROJECT_NAME} ${SRC_FILES})
