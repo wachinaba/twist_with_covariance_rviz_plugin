@@ -1,7 +1,7 @@
 <!-- rviz plugin desctiption -->
 <library path="lib/libtwist_with_covariance_rviz_plugin">
     <class name="twist_with_covariance_rviz_plugin/TwistWithCovarianceStamped"
-        type="twist_with_covariance_rviz_plugin::TwistWithCovarianceStampedDisplay"
+        type="twist_with_covariance_rviz_plugin::TwistWithCovarianceDisplay"
         base_class_type="rviz::Display">
         <description>Displays geometry_msgs::TwistWithCovarianceStamped messages with two arrows and
             covariance ellipsoids. A Covariance between linear and angular velocities is ignored. </description>
